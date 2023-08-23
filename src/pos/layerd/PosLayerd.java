@@ -4,6 +4,7 @@
  */
 package pos.layerd;
 
+import pos.layerd.view.LayoutView;
 /**
  *
  * @author ASS if
@@ -14,7 +15,7 @@ public class PosLayerd {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       System.out.println("hello world");
+       new LayoutView().setVisible(true);
     }
     
 }
